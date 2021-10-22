@@ -18,25 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A sample pod to test something. Nothing to see here, move on
                        DESC
 
   s.homepage         = 'https://github.com/below/SampleCore'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'below' => 'Alex@vonBelow.Com' }
   s.source           = { :git => 'https://github.com/below/SampleCore.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'SampleCore/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SampleCore' => ['SampleCore/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
