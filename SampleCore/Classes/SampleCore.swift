@@ -1,7 +1,7 @@
-struct SampleCore {
-    static let info = "Warp Core"
+public struct SampleCore {
+    public static let info = "Warp Core"
 
-    static func warpSpeed(number: Int) -> Double {
+    public static func warpSpeed(number: Int) -> Double {
         let lightspeed = 1079252848.8
         switch number {
         case 0:
