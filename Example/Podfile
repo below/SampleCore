@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SampleCore_Tests' do
+  pod 'SampleCore', :path => '../'
+  
+  
+end
